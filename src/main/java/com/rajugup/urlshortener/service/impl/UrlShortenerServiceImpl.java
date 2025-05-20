@@ -15,7 +15,7 @@ public class UrlShortenerServiceImpl implements UrlShortenerService {
 
     private final ConcurrentHashMap<String, String> shortToUrl = new ConcurrentHashMap<>();
     private final ConcurrentHashMap<String, String> urlToShort = new ConcurrentHashMap<>();
-    private final String filePath = System.getProperty("user.dir") + "/shortened-urls.txt";
+    private final String filePath = "https://github.com/rranjangupta/UrlShortnerService/blob/main/shortened-urls.txt"
 
 
     public UrlShortenerServiceImpl() {
